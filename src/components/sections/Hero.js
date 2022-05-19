@@ -6,7 +6,7 @@ import Button from "../elements/Button";
 import Image from "../elements/Image";
 import Modal from "../elements/Modal";
 import { Link } from "react-router-dom";
-import SecondPage from "./SecondPage";
+import FirstPage from "./FirstPage";
 
 const propTypes = {
   ...SectionProps.types,

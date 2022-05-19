@@ -4,7 +4,7 @@ import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
 import Button from "../elements/Button";
-import SecondPage from "../sections/SecondPage";
+import FirstPage from "../sections/FirstPage";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -114,10 +114,10 @@ const Header = ({
                     )}
                   >
                     <li>
-                      <Link to="/SecondPage">
+                      <Link to="/FirstPage">
                         <Button
                           className="button button-primary button-wide-mobile button-sm"
-                          onClick={() => <SecondPage />}
+                          onClick={() => <FirstPage />}
                         >
                           Startsida
                         </Button>
